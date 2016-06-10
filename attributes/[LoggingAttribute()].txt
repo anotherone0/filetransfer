@@ -1,0 +1,7 @@
+Logger logger = LogManager.GetCurrentClassLogger();
+System.Diagnostics.Stopwatch sw = System.Diagnostics.Stopwatch(); 
+sw.Start();
+:POST:
+sw.Stop();
+logger.Log(LogLevel.Trace, sw.Elapsed.ToString());
+
