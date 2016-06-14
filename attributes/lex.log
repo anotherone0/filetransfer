@@ -1,0 +1,6 @@
+2016-06-14 16:13:28.2505|Trace||BENCHMARK| PopulateTree: 00:00:00.0055510 
+2016-06-14 16:13:28.2505|Trace| uiBtnWellbore_Click called 
+2016-06-14 16:13:48.0604|Trace||BENCHMARK| PopulateTree: 00:00:00.0014527 
+2016-06-14 16:13:49.2742|Trace| OnAddHoleButtonClick called 
+2016-06-14 16:13:51.6049|Trace||BENCHMARK| PopulateTree: 00:00:00.0012403 
+2016-06-14 16:13:51.6639|Trace| OnApplyButtonClick called 

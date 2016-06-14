@@ -1,7 +1,3 @@
-Logger logger = LogManager.GetCurrentClassLogger();
-System.Diagnostics.Stopwatch sw = System.Diagnostics.Stopwatch(); 
-sw.Start();
+NLog.Logger lex_logger = NLog.LogManager.GetLogger("lex");
 :POST:
-sw.Stop();
-logger.Log(LogLevel.Trace, sw.Elapsed.ToString());
-
+lex_logger.Log(NLog.LogLevel.Trace," " + LEX_FUNCNAME +" called");
